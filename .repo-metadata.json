@@ -10,6 +10,6 @@
     "repo": "googleapis/python-datastream",
     "distribution_name": "google-cloud-datastream",
     "api_id": "datastream.googleapis.com",
-    "default_version": "",
+    "default_version": "v1alpha1",
     "codeowner_team": ""
 }
