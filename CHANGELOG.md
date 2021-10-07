@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.1.4](https://www.github.com/googleapis/python-datastream/compare/v0.1.3...v0.1.4) (2021-10-07)
+
+
+### Bug Fixes
+
+* add 'dict' annotation type to 'request' ([973c851](https://www.github.com/googleapis/python-datastream/commit/973c851b750768b8405c97d33ed4cfdd66d39d9a))
+* improper types in pagers generation ([09eaafd](https://www.github.com/googleapis/python-datastream/commit/09eaafd1b695b10bfc2bb212974eff11da76782c))
+
 ### [0.1.3](https://www.github.com/googleapis/python-datastream/compare/v0.1.2...v0.1.3) (2021-08-30)
 
 
