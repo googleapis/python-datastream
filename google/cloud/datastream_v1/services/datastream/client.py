@@ -1710,7 +1710,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
         # Certain fields should be provided within the metadata header;
         # add these here.
         metadata = tuple(metadata) + (
-            gapic_v1.routing_header.to_grpc_metadata((("object", request.object_),)),
+            gapic_v1.routing_header.to_grpc_metadata((("object", request.object),)),
         )
 
         # Send the request.
@@ -1783,7 +1783,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
         # Certain fields should be provided within the metadata header;
         # add these here.
         metadata = tuple(metadata) + (
-            gapic_v1.routing_header.to_grpc_metadata((("object", request.object_),)),
+            gapic_v1.routing_header.to_grpc_metadata((("object", request.object),)),
         )
 
         # Send the request.
