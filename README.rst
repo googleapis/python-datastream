@@ -1,14 +1,14 @@
 Python Client for Datastream
 ============================
 
-|alpha| |pypi| |versions|
+|stable| |pypi| |versions|
 
 `Datastream`_: Serverless and easy-to-use change data capture and replication service.
 
 - `Client Library Documentation`_
 - `Product Documentation`_
 
-.. |alpha| image:: https://img.shields.io/badge/support-alpha-orange.svg
+.. |stable| image:: https://img.shields.io/badge/support-stable-gold.svg
    :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#beta-support
 .. |pypi| image:: https://img.shields.io/pypi/v/google-cloud-datastream.svg
    :target: https://pypi.org/project/google-cloud-datastream/
