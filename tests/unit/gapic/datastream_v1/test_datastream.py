@@ -4091,7 +4091,7 @@ def test_start_backfill_job_field_headers():
     # a field header. Set these to a non-empty value.
     request = datastream.StartBackfillJobRequest()
 
-    request.object = "object/value"
+    request.object_ = "object/value"
 
     # Mock the actual call within the gRPC stub, and fake the request.
     with mock.patch.object(
@@ -4118,7 +4118,7 @@ async def test_start_backfill_job_field_headers_async():
     # a field header. Set these to a non-empty value.
     request = datastream.StartBackfillJobRequest()
 
-    request.object = "object/value"
+    request.object_ = "object/value"
 
     # Mock the actual call within the gRPC stub, and fake the request.
     with mock.patch.object(
@@ -4298,7 +4298,7 @@ def test_stop_backfill_job_field_headers():
     # a field header. Set these to a non-empty value.
     request = datastream.StopBackfillJobRequest()
 
-    request.object = "object/value"
+    request.object_ = "object/value"
 
     # Mock the actual call within the gRPC stub, and fake the request.
     with mock.patch.object(
@@ -4325,7 +4325,7 @@ async def test_stop_backfill_job_field_headers_async():
     # a field header. Set these to a non-empty value.
     request = datastream.StopBackfillJobRequest()
 
-    request.object = "object/value"
+    request.object_ = "object/value"
 
     # Mock the actual call within the gRPC stub, and fake the request.
     with mock.patch.object(
