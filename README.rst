@@ -9,7 +9,7 @@ Python Client for Datastream
 - `Product Documentation`_
 
 .. |stable| image:: https://img.shields.io/badge/support-stable-gold.svg
-   :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#beta-support
+   :target: https://github.com/googleapis/google-cloud-python/blob/main/README.rst#general-availability
 .. |pypi| image:: https://img.shields.io/pypi/v/google-cloud-datastream.svg
    :target: https://pypi.org/project/google-cloud-datastream/
 .. |versions| image:: https://img.shields.io/pypi/pyversions/google-cloud-datastream.svg
