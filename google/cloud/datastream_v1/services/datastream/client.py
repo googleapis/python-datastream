@@ -16,7 +16,7 @@
 from collections import OrderedDict
 import os
 import re
-from typing import Dict, Optional, Sequence, Tuple, Type, Union
+from typing import Dict, Mapping, Optional, Sequence, Tuple, Type, Union
 import pkg_resources
 
 from google.api_core import client_options as client_options_lib
@@ -556,7 +556,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_list_connection_profiles():
                 # Create a client
@@ -666,7 +666,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_get_connection_profile():
                 # Create a client
@@ -766,7 +766,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_create_connection_profile():
                 # Create a client
@@ -907,7 +907,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_update_connection_profile():
                 # Create a client
@@ -1040,7 +1040,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_delete_connection_profile():
                 # Create a client
@@ -1166,7 +1166,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_discover_connection_profile():
                 # Create a client
@@ -1252,7 +1252,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_list_streams():
                 # Create a client
@@ -1358,7 +1358,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_get_stream():
                 # Create a client
@@ -1455,7 +1455,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_create_stream():
                 # Create a client
@@ -1592,7 +1592,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_update_stream():
                 # Create a client
@@ -1723,7 +1723,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_delete_stream():
                 # Create a client
@@ -1843,7 +1843,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_get_stream_object():
                 # Create a client
@@ -1939,7 +1939,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_lookup_stream_object():
                 # Create a client
@@ -2021,7 +2021,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_list_stream_objects():
                 # Create a client
@@ -2131,7 +2131,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_start_backfill_job():
                 # Create a client
@@ -2230,7 +2230,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_stop_backfill_job():
                 # Create a client
@@ -2328,7 +2328,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_fetch_static_ips():
                 # Create a client
@@ -2441,7 +2441,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_create_private_connection():
                 # Create a client
@@ -2577,7 +2577,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_get_private_connection():
                 # Create a client
@@ -2676,7 +2676,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_list_private_connections():
                 # Create a client
@@ -2787,7 +2787,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_delete_private_connection():
                 # Create a client
@@ -2913,7 +2913,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_create_route():
                 # Create a client
@@ -3043,7 +3043,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_get_route():
                 # Create a client
@@ -3141,7 +3141,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_list_routes():
                 # Create a client
@@ -3247,7 +3247,7 @@ class DatastreamClient(metaclass=DatastreamClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import datastream_v1
+                    from google.cloud import datastream_v1
 
             def sample_delete_route():
                 # Create a client
