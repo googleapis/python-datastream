@@ -8061,7 +8061,6 @@ def test_datastream_transport_auth_adc(transport_class):
     [
         transports.DatastreamGrpcTransport,
         transports.DatastreamGrpcAsyncIOTransport,
-        transports.DatastreamRestTransport,
     ],
 )
 def test_datastream_transport_auth_gdch_credentials(transport_class):
