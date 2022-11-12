@@ -7,12 +7,12 @@
         "google/cloud/datastream/gapic_version.py",
         {
           "type": "json",
-          "path": "samples/generated_samples/snippet_metadata_datastream_v1.json",
+          "path": "samples/generated_samples/snippet_metadata_google.cloud.datastream.v1.json",
           "jsonpath": "$.clientLibrary.version"
         },
         {
           "type": "json",
-          "path": "samples/generated_samples/snippet_metadata_datastream_v1alpha1.json",
+          "path": "samples/generated_samples/snippet_metadata_google.cloud.datastream.v1alpha1.json",
           "jsonpath": "$.clientLibrary.version"
         }
       ]
